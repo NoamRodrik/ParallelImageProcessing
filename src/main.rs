@@ -1,3 +1,5 @@
+mod cli;
+
 fn main() {
-    println!("Hello, world!");
+    println!("file: {}!", &cli::configuration().file);
 }
